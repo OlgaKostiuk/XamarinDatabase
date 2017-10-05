@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/crId"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Id"
+        android:backgroundTint="#fff5f5f5"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/crFirstName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="First Name" />
+    <EditText
+        android:id="@+id/crLastName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="LastName" />
+    <EditText
+        android:id="@+id/crAge"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Age" />
+    <Button
+        android:id="@+id/crBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:layout_gravity="center"
+        android:backgroundTint="#00000000" />
+</LinearLayout>
